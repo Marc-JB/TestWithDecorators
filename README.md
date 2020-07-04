@@ -6,7 +6,7 @@
 ![node version](https://badgen.net/npm/node/@peregrine/test-with-decorators)
 ![types](https://badgen.net/npm/types/@peregrine/test-with-decorators?icon=typescript)
 # Test with decorators
-Experimental library for testing with decorators using mocha and chai
+Experimental library for writing tests with decorators. Uses mocha and chai internally.
 
 ## Demo
 ```TypeScript
