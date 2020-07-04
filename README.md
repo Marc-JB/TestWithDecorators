@@ -8,6 +8,9 @@
 # Test with decorators
 Experimental library for writing tests with decorators. Uses mocha and chai internally.
 
+## Notes
+* Make sure to enable the `experimentalDecorators` (and preferably `emitDecoratorMetadata`) flag(s) in your `tsconfig.json`
+
 ## Demo
 ```TypeScript
 import { suite, test, expect } from "@peregrine/test-with-decorators"
