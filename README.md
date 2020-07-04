@@ -11,7 +11,7 @@ Experimental library for testing with decorators using mocha and chai
 ## Demo
 ```TypeScript
 import { suite, test, expect } from "@peregrine/test-with-decorators"
-import { camelCaseToText, snakeCaseToText, convertFunctionNameToText } from "../main/textUtils"
+import { camelCaseToText, snakeCaseToText } from "../main/textUtils"
 
 @suite
 export class TextUtilsTests {
