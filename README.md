@@ -10,6 +10,7 @@ Experimental library for writing tests with decorators. Uses mocha and chai inte
 
 ## Notes
 * Make sure to enable the `experimentalDecorators` (and preferably `emitDecoratorMetadata`) flag(s) in your `tsconfig.json`
+* You'll need to add `mocha` to your `devDependencies` to start the tests from the command line interface (CLI)
 
 ## Demo
 ```TypeScript
